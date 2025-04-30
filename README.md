@@ -1,6 +1,6 @@
 # DEPI Journey: Data Science Learning Path
 
-This repository documents my learning journey with the DEPI (Data Engineering and Practical Intelligence) program. It includes summaries of key concepts, notes from sessions, personal reflections, and hands-on projects I've built along the way.
+This repository documents my learning journey with  DEPI program. It includes summaries of key concepts, notes from sessions, personal reflections, and hands-on projects I've built along the way.
 
 ## What You'll Find Here
 
