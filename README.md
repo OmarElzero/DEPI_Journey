@@ -1,43 +1,64 @@
 # DEPI Journey: Data Science Learning Path
 
-This repository documents my learning journey with  DEPI program. It includes summaries of key concepts, notes from sessions, personal reflections, and hands-on projects I've built along the way.
+A personal learning log for the DEPI (Digital Egypt Pioneers Initiative) Data Science track. The repository is organized to mirror the program's curriculum, with each topic folder holding a Jupyter notebook of worked examples, a Markdown quiz for self-assessment, and a Markdown summary distilling the key concepts covered — progressing from foundational data science concepts through Python, SQL, data analysis/visualization, and finally machine learning.
 
-## What You'll Find Here
+![Last Commit](https://img.shields.io/github/last-commit/OmarElzero/DEPI_Journey)
+![Top Language](https://img.shields.io/github/languages/top/OmarElzero/DEPI_Journey)
+![Repo Size](https://img.shields.io/github/repo-size/OmarElzero/DEPI_Journey)
 
-This repository is organized to follow the DEPI program curriculum, covering fundamental to advanced concepts in Data Science:
+## Features
 
-1. **Introduction to Data Science** - Basic concepts and foundations
-2. **Data Science Methodology** - Frameworks and approaches for solving data science problems
-3. **Tools for Data Science** - Overview of popular software and platforms
-4. **Python for Data Science** - Essential Python programming skills
-5. **Python Project for Data Science** - Hands-on application of Python skills
-6. **Databases and SQL for Data Science** - Data management and querying fundamentals
-7. **Data Analysis with Python** - Techniques for exploring and analyzing data
-8. **Data Visualization with Python** - Creating effective visual representations of data
-9. **Machine Learning with Python** - Building predictive models and algorithms
+- Nine curriculum modules, each with a worked-example notebook, a quiz, and a written summary
+- Summaries covering: the data science methodology, popular tools, core Python, SQL and databases, data analysis with pandas/NumPy, data visualization, and machine learning fundamentals (supervised/unsupervised/reinforcement learning, the ML lifecycle from problem definition to deployment)
+- Hands-on Jupyter notebooks reinforcing each topic with runnable code
 
-## Repository Structure
+## Tech Stack
 
-Each topic folder in the `/Summarize` directory contains:
-- **Examples** (.ipynb files) - Jupyter notebooks with code demonstrations
-- **Quiz** (.md files) - Self-assessment questions and answers
-- **Summary** (.md files) - Key takeaways and concept explanations
+- **Python 3**, **Jupyter Notebook**
+- **pandas**, **NumPy** for data analysis
+- **Matplotlib** / visualization libraries covered in the data visualization module
+- **SQL** (covered in the databases module)
+- **scikit-learn**-style machine learning concepts covered in the ML module
 
-## How to Navigate This Repository
+## Project Structure
 
-- **New to Data Science?** Start with folder `01-Introduction_to_Data_Science` and progress sequentially.
-- **Looking for specific topics?** Jump directly to the relevant folder.
-- **Want to test your knowledge?** Check the Quiz.md files in each section.
-- **Need code examples?** Explore the Jupyter notebooks in each folder.
+| Path | Description |
+|---|---|
+| `Summarize/01-Introduction_to_Data_Science/` | Foundations and basic concepts |
+| `Summarize/02-Data_Science_Methodology/` | Frameworks and approaches for solving data science problems |
+| `Summarize/03-Tools_for_Data_Science/` | Overview of popular data science software and platforms |
+| `Summarize/04-PythonForDataScience/` | Essential Python programming skills |
+| `Summarize/05-PythonProjectForDataScience/` | Hands-on Python project work |
+| `Summarize/06-DatabasesAndSQLForDataScience/` | Data management and SQL querying fundamentals |
+| `Summarize/07-Data_Analysis_with_Python/` | Descriptive statistics, NumPy, pandas-based data analysis |
+| `Summarize/08-Data_Visualization_with_Python/` | Techniques for visualizing data |
+| `Summarize/09-Machine_Learning_with_Python/` | ML paradigms and the machine learning lifecycle |
 
-## Contribution
+Each module folder follows the same pattern: an `examples.ipynb` (or similarly named) notebook, a `quiz.md`, and a `summary.md`.
 
-Whether you're following the same program or just curious about Data Science, feel free to explore, learn, and contribute! Suggestions for improvements and additional resources are always welcome.
+## Installation
 
-## About DEPI Program
+```bash
+git clone https://github.com/OmarElzero/DEPI_Journey.git
+cd DEPI_Journey
+pip install jupyter pandas numpy matplotlib
+```
 
-The DEPI program is designed to provide comprehensive training in data science, preparing students for careers in the data science field.
+## Usage
+
+Start with `Summarize/01-Introduction_to_Data_Science/` and progress sequentially, or jump to a specific topic:
+
+```bash
+jupyter notebook "Summarize/07-Data_Analysis_with_Python/examples.ipynb"
+```
+
+Review `summary.md` for concept notes and `quiz.md` in each folder to self-test understanding of that module.
+
+## Demo
+
+No live demo is available for this project.
 
 ---
 
-*Last Updated: April 30, 2025*
+**Author:** OmarElzero · [GitHub](https://github.com/OmarElzero)
+Last updated: 2026-08-23
